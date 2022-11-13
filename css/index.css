@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*
+this is my CSS file created on 09/16/2022
+*/
+
+body, header,nav,main,footer,h1,div,img,ul {
+                          margin: 0;
+                          padding: 0;
+                          border: 0;
+
+}
+
+body {
+ background-color: #000033;
+ }
+
+/* style rules for mobile viewport */
+
+/* style rules for header */
+
+header {
+        position: -webkit-sticky;
+        position: static;
+        top: 0;
+        height: 190px;
+
+}
+
+header img {
+      margin: 0 auto;
+}
+
+nav {
+
+    padding: 1%;
+    margin-bottom: 1%;
+    height: 190px;
+  }
+
+nav ul{
+list-style-type: none;
+margin: 0;
+text-align: right;
+float: right;
+}
+
+nav li{
+ display: inline-block;
+ font-size: 1.5em;
+ font-weight: bold;
+ float: right;
+}
+
+nav li a{
+display: block;
+color: white;
+text-align: center;
+padding: 0.5em 1em;
+text-decoration: none;
+
+}
+
+nav li a:hover {
+color: lightgreen;
+background-color: fff;
+}
+
+
+
+main, p {
+      color:white;
+      text-align: center;
+      font-size: 150%
+
+}
+
+footer p {
+      font-size: 1em;
+      text-align: center;
+      color: green;
+      padding: 0 1em;
+}
+
+footer p a{
+      color: azure;
+      text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+      color: azure;
+      text-decoration: none;
+}
+
+.menu {
+            text-align: center;
+            color: white;
+        }
+
+#about {
+
+     text-align: center;
+     border-top: 1px solid green;
+     border-bottom: 1px solid green;
+     background-color: #f2f2f2;
+     padding: 1% 2%;
+
+}
+#about dt {
+         font-weight: bold;
+}
+
+#about dd {
+       padding: 0.5% 1% 2% 0;
+}
+
+
+
+
+#about {
+      color: green;
+      text-align: center;
+}
+
+.maps {
+    border: 8px solid green;
+}
+
+.mobile {
+     display: none;
+}
+
+#mobile {
+     display: none;
+}
+
+
