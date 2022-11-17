@@ -78,6 +78,9 @@ text-decoration: none;
     display: none;
 }
 
+#form{
+display:none;
+}
 
 .tel-link {
      background-color: azure;
@@ -383,6 +386,25 @@ display:block;
     height: 450px;
     border: 5px solid green;
 }
+
+/* Style rules for form elements */
+
+#form {
+display:block;
+}
+
+fieldset, input {
+  margin-bottom: 2%;
+}
+fieldset legend {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+label {
+  display:block;
+  padding-top: 3%;
+}
+
 
 }
 
