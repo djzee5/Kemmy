@@ -28,13 +28,12 @@ header {
         background-color: #000033;
 
         text-align: center;
-
+}
 header img {
       margin: 0 auto;
 
 }
 
-}
 
 
 
@@ -568,10 +567,8 @@ label {
   padding-top: 3%;
 }
 
-
 }
 
-}
 
 
 /* Media Query for print */
