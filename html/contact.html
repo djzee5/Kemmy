@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab:wght@300&display=swap"
           rel="stylesheet">
-    <link href="/kemmy/images/favicon-32x32.png"type="image/png" sizes="32x32" rel="icon">
+    <link href="/kemmy/images/favicon-32x32.png" type="image/png" sizes="32x32" rel="icon">
 
 </head>
 <body >
@@ -20,7 +20,7 @@
                 <a href="about.html">About Us</a>
                 <a href="contact.html">Contact Us</a>
             </div>
-            <a class="menu-icon">
+            <a class="menu-icon" onclick="hamburger()">
                 <div>&#9776;</div>
             </a>
         </nav>
@@ -48,20 +48,15 @@
         <br>
 
 
-   <main>
 
-         <div id="contact">
+         <main id="contact">
                <h2>Ready to place an order? Contact us today.</h2>
              <p class="mobil"> <a href="tel:9196727662">(919) 672-7662</a></p>
                <p class="tab-desk"> (919) 672-7662 </p>
                <p>Email us: <a href="mailto:soroase@gmail.com" class="email-link">
                    soroase@gmail.com</a></p>
                <p>Location: 2012 Spring Creek dr, Durham, NC 27704</p>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.061391445132!2d-78.84883598438165
-              !3d36.01879421899136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace34927c0bd67%3A0x2ea85718280
-              1efac!2s2012%20Spring%20Creek%20Dr%2C%20Durham%2C%20NC%2027704!5e0!3m2!1sen!2sus!4v1663276608350!5m2!1sen
-              !2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy=
-               "no-referrer-when-downgrade" class="maps"></iframe>
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3227.061391445132!2d-78.84883598438165!3d36.01879421899136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace34927c0bd67%3A0x2ea857182801efac!2s2012%20Spring%20Creek%20Dr%2C%20Durham%2C%20NC%2027704!5e0!3m2!1sen!2sus!4v1663276608350!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe>
 
              <div id="form">
         <h2> Complete the form below and one of our staff members will contact you.</h2>
@@ -71,8 +66,8 @@
             <legend>PLACE YOUR ORDER BELOW</legend>
 
             <label for="fName">First Name:</label>  <input type="text" name="fName" id="fName">
-<label for="lName">Last Name:</label>  <input type="text" name="lName" id="lName">
-<label for="phone">Phone:</label>  <input type="tel" id="phone" name="phone">
+            <label for="lName">Last Name:</label>  <input type="text" name="lName" id="lName">
+            <label for="phone">Phone:</label>  <input type="tel" id="phone" name="phone">
               <label for="text">Order:</label>  <input type="text" name="Order" id="text" style="width:30%; height:150px;">
 
           </fieldset>
@@ -80,26 +75,19 @@
              <input type="reset"  id="reset"  value="reset"  class="btn">
         </form>
 
-            <!-- <form action="mailto:oladimeji201578@gmail.com" method="POST">
-                First Name:
-                <input type="text" name="fname">
 
-                Last Name:
-                <input type="text" name="lname">
-                <br>
-                <br>
-                 <input type="submit" value="Submit">
-            </form> -->
          </div>
 
+         </main>
 
-   </main>
 
    <footer>
             <p style="color:white;">&copy; Copyright 2022. All Rights Reserved  &#9733;</p>
             <p><a href="mailto:soroase@gmail.com" target="_blank">soroase@gmail.com</a></p>
 
    </footer>
+
+       <script src="scripts/script.js"></script>
 
 </body>
 </html>
