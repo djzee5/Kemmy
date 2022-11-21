@@ -35,9 +35,8 @@ header img {
 }
 
 
-
-
 /* Style rules for hamburger menu */
+
 .mobile-nav a{
 color: #fff;
 font-family: 'Francois One', sans-serif;
@@ -64,8 +63,12 @@ top:0;
 .menu-icon {
 display:block; }
 
-.tablet-desktop, #menu-links {
+.tab-desk, #menu-links {
     display: none;
+}
+
+#foodVideo{
+display:none;
 }
 
 #form{
@@ -119,11 +122,15 @@ footer a{
       text-decoration: none;
 }
 
+/* style rule for menu area */
 .menu {
             text-align: center;
             color: white;
         }
-
+.menu img {
+            max-width:100%;
+            height: auto;
+            }
 
 #OurFood{
     display: block;
@@ -233,7 +240,7 @@ color: lightgreen;
 
 /* Media Query for Tablet Viewport */
 
-@media screen and (min-width: 600px), print {
+@media screen and (min-width: 550px), print {
 
   body {
  background-color: #000033;
@@ -242,7 +249,7 @@ color: lightgreen;
 /* Tablet viewport: show tablet-desktop class, hide mobile class */
 
 
-.tablet-desktop{
+.tab-desk{
 display: block;
 }
 
@@ -259,8 +266,9 @@ display:none;
 }
 
 .tab-desk{
-display:block;}
-
+display:block;
+text-align: center;
+}
 
 /* Tablet viewport: style rules for header */
 
@@ -277,38 +285,39 @@ header img {
       margin: 0 auto;
 }
 
-/* Tablet viewport: style rules for nav area */
-
-nav {
-
-    padding: 1%;
-    margin-bottom: 1%;
-
-  }
-
-nav ul{
-list-style-type: none;
-text-align: center;
+/* Tablet Viewport: Style rules for nav area */
+nav ul {
+    list-style-type: none;
+    text-align: center;
 }
 
-nav li{
- font-size: 1.5em;
- font-family: 'Francois One', sans-serif;
-display: inline-block;
-border-right: 1px solid #fff;
+nav li
+{
+     border-top: none;
+     display: inline-block;
+      font-family: 'Francois One', sans-serif;
+     font-size: 1.5em;
+     border-right: 1px solid #e5e9fc;
 }
 
-nav li:last-child {
-     border:none;
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
 
-nav li a{
-display: block;
-color: #fff;
-padding: 0.1em 0.75em;
-text-decoration: none;
-
+nav li:last-child
+{
+  border-right: none;
 }
+
+#intro img{
+max-width:100%;
+height: auto;
+}
+
+
 main, p {
       color:white;
       text-align: center;
@@ -316,19 +325,6 @@ main, p {
 
 }
 
-/* desktop viewport: footer area */
-
-footer p {
-      font-size: 1em;
-      text-align: center;
-      color: green;
-      padding: 0 1em;
-}
-
-footer p a{
-      color: azure;
-      text-decoration: none;
-}
 
 /*desktop viewport: contact area */
 
@@ -381,11 +377,19 @@ display:block;
 }
 
 
-
-
 #about {
       color: green;
       text-align: center;
+}
+
+.viewex {
+color:green;
+font-weight:bold;
+cursor: pointer;
+}
+
+#example {
+display:none;
 }
 
 .maps {
@@ -565,6 +569,11 @@ fieldset legend {
 label {
   display:block;
   padding-top: 3%;
+}
+
+#foodVideo{
+display:none;
+
 }
 
 }
