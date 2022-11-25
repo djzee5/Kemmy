@@ -11,7 +11,7 @@ body, header,nav,main,footer,h1,div,img,ul {
 }
 
 body {
- background-color: #000033;
+ background-color; #000033;
  }
 
 .Menu {
@@ -364,7 +364,9 @@ display:block;
      text-align: center;
      border-top: 1px solid green;
      border-bottom: 1px solid green;
-     background-color: #f2f2f2;
+     /*background-color: #f2f2f2;*/
+     background-image: linear-gradient(to left, #000033, white, lightgreen);
+
      padding: 1% 2%;
 
 }
@@ -374,12 +376,6 @@ display:block;
 
 #about dd {
        padding: 0.5% 1% 2% 0;
-}
-
-
-#about {
-      color: green;
-      text-align: center;
 }
 
 .viewex {
@@ -493,6 +489,7 @@ footer p a{
 
 #contact {
     text-align: center;
+
 }
 
 #contact a {
