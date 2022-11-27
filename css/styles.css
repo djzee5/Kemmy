@@ -14,15 +14,9 @@ body {
  background-color: #000033;
  }
 
-.Menu {
-display: none;
-}
 /* style rules for mobile viewport */
 
 /* style rules for header */
-
-.deal {
-display:block; }
 
 header {
         background-color: #000033;
@@ -56,6 +50,10 @@ top:0;
 
 
 /* show mobile class, hide tablet-desktop class and menu-links id */
+
+.deal {
+display:block; }
+
 .mobile {
    display: block;
 }
@@ -65,6 +63,10 @@ display:block; }
 
 .tab-desk, #menu-links {
     display: none;
+}
+
+.Menu {
+display: none;
 }
 
 .figcaption{
@@ -98,6 +100,7 @@ display:none;
    margin-left: 10%;
 }
 
+/* Style rule for main content */
 
 main {
     background-color: #000033;
